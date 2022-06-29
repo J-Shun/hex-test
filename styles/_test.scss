@@ -1,0 +1,26 @@
+.container {
+  max-width: 1220px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.banner {
+  height: 958px;
+  background-image: url(../image/banner.png);
+  background-position: center;
+}
+
+hr {
+  max-width: 384px;
+}
+
+.circle {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  vertical-align: middle;
+}

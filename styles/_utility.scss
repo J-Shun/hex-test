@@ -1,0 +1,212 @@
+.df {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col1-sm {
+  @include sm {
+    grid-template-columns: 1fr;
+  }
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jic {
+  justify-items: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.aic {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+.g-4 {
+  gap: $base-number * 4;
+}
+
+.g-6 {
+  gap: $base-number * 6;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-y-center {
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.fz-5 {
+  font-size: $base-number * 5;
+}
+
+.fz-6 {
+  font-size: $base-number * 6;
+}
+
+.fz-16 {
+  font-size: $base-number * 16;
+}
+
+.fz-20 {
+  font-size: $base-number * 20;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+
+.fs-i {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.secondary-color {
+  color: $secondary-color;
+}
+
+.bg-primary {
+  background-color: $primary-color;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.pt-14 {
+  padding-top: $base-number * 14;
+}
+
+.pt-16 {
+  padding-top: $base-number * 16;
+}
+
+.pb-16 {
+  padding-bottom: $base-number * 16;
+}
+
+.pb-40 {
+  padding-bottom: $base-number * 40;
+}
+
+.mb-1 {
+  margin-bottom: $base-number;
+}
+
+.mb-2 {
+  margin-bottom: $base-number * 2;
+}
+
+.mb-3 {
+  margin-bottom: $base-number * 3;
+}
+
+.mb-4 {
+  margin-bottom: $base-number * 4;
+}
+
+.mb-5 {
+  margin-bottom: $base-number * 5;
+}
+
+.mb-6 {
+  margin-bottom: $base-number * 6;
+}
+
+.mb-7 {
+  margin-bottom: $base-number * 7;
+}
+
+.mb-8 {
+  margin-bottom: $base-number * 8;
+}
+
+.mb-10 {
+  margin-bottom: $base-number * 10;
+}
+
+.mb-12 {
+  margin-bottom: $base-number * 12;
+}
+
+.mb-16 {
+  margin-bottom: $base-number * 16;
+}
+
+.mb-36 {
+  margin-bottom: $base-number * 36;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.over-flow-hidden {
+  overflow: hidden;
+}
+
+.border-none {
+  border: none;
+}
+
+.background-primary {
+  background-color: $primary-color;
+}
+
+.hide {
+  display: none;
+}
